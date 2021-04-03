@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "QuangKR <dangminhquang.r@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.6"
+  }
 }
