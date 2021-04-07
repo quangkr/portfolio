@@ -21,12 +21,16 @@
   },
   "devDependencies": {
     "@vue/eslint-config-prettier": "^6.0.0",
+    "autoprefixer": "^10.2.5",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.23.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.8.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
+    "postcss": "^8.2.9",
     "prettier": "^2.2.1",
+    "tailwindcss": "^2.1.1",
     "vuepress": "^2.0.0-beta.6",
     "vuepress-vite": "^2.0.0-beta.2"
   },
@@ -43,6 +47,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
+    "plugins": [
+      "vue"
+    ],
     "rules": {
       "vue/no-deprecated-slot-attribute": "off",
       "no-unused-vars": [
@@ -55,7 +62,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": [
-      "eslint --fix"
+      "eslint --ext .js,.jsx,.ts,.tsx,.vue --fix"
     ],
     "*.{md,json,yml,css,scss}": "prettier --write"
   }

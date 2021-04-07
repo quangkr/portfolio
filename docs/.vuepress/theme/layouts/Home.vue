@@ -2,7 +2,7 @@
   <div class="home-page">
     <section id="section-hero" class="section-hero">
       <div class="hero-inner">
-        <h1 class="hero-title">{{ frontmatter.hero.title }}</h1>
+        <h1 class="text-red-400">{{ frontmatter.hero.title }}</h1>
         <h2 class="hero-description">{{ frontmatter.hero.description }}</h2>
         <a href="#section-projects" target="_self" class="cta-link">
           {{ frontmatter.hero["cta-text"] }}
