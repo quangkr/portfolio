@@ -72,8 +72,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'Dang Minh Quang\'s Portfolio',
+        short_name: 'Portfolio',
         theme_color: '#ffffff',
         icons: [
           {
