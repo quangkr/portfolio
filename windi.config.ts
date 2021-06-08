@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite-plugin-windicss'
+import defaultTheme from 'windicss/defaultTheme'
 import colors from 'windicss/colors'
 import typography from 'windicss/plugin/typography'
 
@@ -9,6 +10,11 @@ export default defineConfig({
   ],
   attributify: true,
   theme: {
+    fontFamily: {
+      sans: ['"IBM Plex Sans"', ...defaultTheme.fontFamily.sans],
+      serif: ['"IBM Plex Serif"', ...defaultTheme.fontFamily.serif],
+      mono: ['"IBM Plex Mono"', ...defaultTheme.fontFamily.mono],
+    },
     extend: {
       typography: {
         DEFAULT: {
