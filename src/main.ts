@@ -6,6 +6,10 @@ import 'virtual:windi.css'
 import 'virtual:windi-devtools'
 import './styles/main.css'
 
+import '@fontsource/ibm-plex-mono'
+import '@fontsource/ibm-plex-sans'
+import '@fontsource/ibm-plex-serif'
+
 const routes = setupLayouts(generatedRoutes)
 
 // https://github.com/antfu/vite-ssg
