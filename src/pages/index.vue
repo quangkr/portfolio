@@ -3,33 +3,27 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const router = useRouter()
-const { t } = useI18n()
 </script>
 
 <template>
   <div
-    class="bg-teal-200 bg-opacity-20 flex flex-col items-center min-h-screen items-center"
+    class="xl:container w-full px-4 flex flex-col items-center bg-console-0 flex-auto"
   >
-    <div
-      class="xl:container w-full px-10 flex flex-col items-center bg-red-100 flex-auto"
+    <section
+      id="section-hero"
+      class="w-full grid grid-cols-1 grid-rows-3 min-h-screen text-center"
     >
-      <section
-        id="section-hero"
-        class="w-full flex flex-col items-center justify-center flex-auto"
-      >
-        <p class="text-4xl">
-          <carbon-campsite class="inline-block" />
+      <h1 class="row-start-2 self-center font-sans text-4xl text-console-8">
+        Hi, I'm <span class="text-console-2">Quang</span>
+        <p class="mt-6 font-normal text-3xl">
+          I'm a <span class="text-console-3">Web Developer</span>
         </p>
-        <h1 class="font-mono text-6xl">
-          Dang Minh Quang
-        </h1>
-        <p>
-          <em class="text-sm opacity-75">{{ t('intro.desc') }}</em>
-        </p>
-        <a href="#section-projects" target="_self">CTA</a>
-      </section>
-      <section id="section-projects" class="section-projects"></section>
-    </div>
+      </h1>
+      <a href="#section-projects" target="_self" class="row-start-3 self-end text-console-8">
+        <mdi-light-chevron-down class="w-28 h-auto" />
+      </a>
+    </section>
+    <section id="section-projects" class="section-projects"></section>
   </div>
 </template>
 
