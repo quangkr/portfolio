@@ -19,7 +19,7 @@ specifiers:
   https-localhost: ^4.6.5
   markdown-it-prism: ^2.1.6
   nprogress: ^0.2.0
-  pnpm: ^6.6.2
+  pnpm: ^6.7.4
   prism-theme-vars: ^0.2.2
   typescript: ^4.3.2
   vite: ^2.3.5
@@ -61,7 +61,7 @@ devDependencies:
   eslint: 7.27.0
   https-localhost: 4.6.5
   markdown-it-prism: 2.1.6
-  pnpm: 6.6.2
+  pnpm: 6.7.4
   typescript: 4.3.2
   vite: 2.3.5
   vite-plugin-components: 0.10.4_vite@2.3.5
@@ -5201,8 +5201,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/6.6.2:
-    resolution: {integrity: sha512-w1YEyx+xiTbrxVt5OP6JG0LqwkK/hq2OkCYj7RZhK9oyv7cCEkgkX5Z5MPVC1wTCv2kQDJRoXzBeedPiIhzN8Q==}
+  /pnpm/6.7.4:
+    resolution: {integrity: sha512-XdVdy9s2IL84SEWeHGg9nVr5hVF3Nim05UXqtrst1FS5PJdQM+uDazgHIaFMIpPvvWRt5cPYuFj70dOMX6jZCQ==}
     engines: {node: '>=12.17'}
     hasBin: true
     dev: true
