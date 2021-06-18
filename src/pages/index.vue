@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
 
+import FeatureCard from '~/components/FeatureCard.vue'
 import SvgLogo from '~/assets/logo.svg'
+import imgThumbBlogr from '~/assets/thumb_projects_blogr.png'
+import imgThumbRestApi from '~/assets/thumb_projects_rest_api.png'
 
 const router = useRouter()
 </script>
@@ -38,7 +41,12 @@ const router = useRouter()
         </p>
       </div>
     </section>
-    <section id="section-projects" class="section-projects"></section>
+    <section id="section-projects" class="w-full">
+      <div class="w-8/10 mx-auto max-w-screen-lg flex flex-col items-center">
+        <FeatureCard :thumbs-url="imgThumbBlogr" title="Proj 1" description="Desc 1" class="mb-12" />
+        <FeatureCard :thumbs-url="imgThumbRestApi" title="Proj 1" description="Desc 1" class="mb-12" />
+      </div>
+    </section>
   </div>
 </template>
 
