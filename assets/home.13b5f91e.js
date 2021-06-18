@@ -1,0 +1,1 @@
+import{a as e}from"./app.e44d7ef4.js";import{r,o as t,a,b as n}from"./vendor.161c17ad.js";const s={},o={class:"flex flex-col justify-between\n           min-h-screen\n           text-center text-gray-700 dark:text-gray-200"};s.render=function(s,c){const f=r("router-view"),i=e;return t(),a("main",o,[n(f),n(i)])};export default s;
