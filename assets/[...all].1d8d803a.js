@@ -1,1 +1,0 @@
-import{d as o,u as t,o as a,a as s,t as e,e as n}from"./vendor.6095adcd.js";var d=o({expose:[],setup(o){const{t:d}=t();return(o,t)=>(a(),s("div",null,e(n(d)("not-found")),1))}}),r={};"function"==typeof r&&r(d);export default d;
