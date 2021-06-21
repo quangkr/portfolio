@@ -1,6 +1,6 @@
 backend:
   #name: test-repo
-  name: github
+  name: git-gateway
   branch: test-build # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "public/images/uploads" # Media files will be stored in the repo under static/images/uploads
