@@ -1,130 +1,864 @@
 {
-  "/home/runner/work/portfolio/portfolio/locales/en.yml": [],
-  "/home/runner/work/portfolio/portfolio/locales/vi.yml": [],
-  "/home/runner/work/portfolio/portfolio/src/modules/i18n.ts": [],
-  "/home/runner/work/portfolio/portfolio/src/modules/nprogress.ts": [],
-  "vite/preload-helper": [],
-  "/home/runner/work/portfolio/portfolio/src/modules/pwa.ts": [],
-  "@vite-icons/carbon/campsite": [],
-  "/home/runner/work/portfolio/portfolio/src/pages/index.vue?vue&type=script&setup=true&lang.ts": [],
-  "/home/runner/work/portfolio/portfolio/src/pages/index.vue?vue&type=route&index=0&lang.yaml": [],
-  "/home/runner/work/portfolio/portfolio/src/pages/index.vue": [],
-  "/@vite-plugin-pages/generated-pages": [],
-  "@vite-icons/carbon/moon": [],
-  "@vite-icons/carbon/sun": [],
-  "@vite-icons/carbon/language": [],
-  "@vite-icons/carbon/dicom-overlay": [],
-  "@vite-icons/carbon/logo-github": [],
-  "/home/runner/work/portfolio/portfolio/src/logic/dark.ts": [],
-  "/home/runner/work/portfolio/portfolio/src/components/Footer.vue?vue&type=script&setup=true&lang.ts": [],
-  "/home/runner/work/portfolio/portfolio/src/layouts/default.vue": [],
-  "/@vite-plugin-vue-layouts/generated-layouts": [],
-  "/home/runner/work/portfolio/portfolio/src/App.vue?vue&type=script&setup=true&lang.ts": [],
-  "/@windicss/windi.css": [],
-  "/home/runner/work/portfolio/portfolio/src/styles/main.css": [],
-  "/home/runner/work/portfolio/portfolio/src/main.ts": [],
-  "/home/runner/work/portfolio/portfolio/index.html": [],
+  "/home/runner/work/portfolio/portfolio/locales/en.yml": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/locales/vi.yml": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/modules/i18n.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/modules/nprogress.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "vite/preload-helper": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/modules/pwa.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "@vite-icons/mdi-light/chevron-down": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/components/FeatureCard.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/assets/logo.svg": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/assets/thumb_projects_blogr.png": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/assets/thumb_projects_rest_api.png": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/pages/index.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/pages/index.vue?vue&type=route&index=0&lang.yaml": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/pages/index.vue": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/@vite-plugin-pages/generated-pages": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "@vite-icons/carbon/campsite": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "@vite-icons/carbon/moon": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "@vite-icons/carbon/sun": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "@vite-icons/carbon/language": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "@vite-icons/carbon/dicom-overlay": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "@vite-icons/carbon/logo-github": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/logic/dark.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/components/Footer.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/layouts/default.vue": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/@vite-plugin-vue-layouts/generated-layouts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/App.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/@windicss/windi.css": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/styles/main.css": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@fontsource+ibm-plex-mono@4.4.5/node_modules/@fontsource/ibm-plex-mono/index.css": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@fontsource+ibm-plex-sans@4.4.5/node_modules/@fontsource/ibm-plex-sans/index.css": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@fontsource+ibm-plex-serif@4.4.5/node_modules/@fontsource/ibm-plex-serif/index.css": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/src/main.ts": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
+  "/home/runner/work/portfolio/portfolio/index.html": [
+    "/assets/thumb_projects_blogr.367c4b8f.png",
+    "/assets/thumb_projects_rest_api.b937604a.png",
+    "/assets/ibm-plex-mono-cyrillic-ext-400-normal.488fc49d.woff2",
+    "/assets/ibm-plex-mono-all-400-normal.87ac68d0.woff",
+    "/assets/ibm-plex-mono-cyrillic-400-normal.d36ea56c.woff2",
+    "/assets/ibm-plex-mono-vietnamese-400-normal.a697ac1e.woff2",
+    "/assets/ibm-plex-mono-latin-ext-400-normal.93ffa9aa.woff2",
+    "/assets/ibm-plex-mono-latin-400-normal.9ad89b2a.woff2",
+    "/assets/ibm-plex-sans-cyrillic-ext-400-normal.736f954e.woff2",
+    "/assets/ibm-plex-sans-all-400-normal.fa4ffe02.woff",
+    "/assets/ibm-plex-sans-cyrillic-400-normal.13a9cc41.woff2",
+    "/assets/ibm-plex-sans-greek-400-normal.a7d339ca.woff2",
+    "/assets/ibm-plex-sans-vietnamese-400-normal.1ae59476.woff2",
+    "/assets/ibm-plex-sans-latin-ext-400-normal.f111c782.woff2",
+    "/assets/ibm-plex-sans-latin-400-normal.2ac23279.woff2",
+    "/assets/ibm-plex-serif-cyrillic-ext-400-normal.0ec7b997.woff2",
+    "/assets/ibm-plex-serif-all-400-normal.e34c690b.woff",
+    "/assets/ibm-plex-serif-cyrillic-400-normal.afcf657d.woff2",
+    "/assets/ibm-plex-serif-vietnamese-400-normal.1c63bacc.woff2",
+    "/assets/ibm-plex-serif-latin-ext-400-normal.247ddde9.woff2",
+    "/assets/ibm-plex-serif-latin-400-normal.a160cdb6.woff2"
+  ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@intlify+shared@9.1.6/node_modules/@intlify/shared/dist/shared.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@intlify+message-resolver@9.1.6/node_modules/@intlify/message-resolver/dist/message-resolver.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@intlify+runtime@9.1.6/node_modules/@intlify/runtime/dist/runtime.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@intlify+message-compiler@9.1.6/node_modules/@intlify/message-compiler/dist/message-compiler.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@intlify+devtools-if@9.1.6/node_modules/@intlify/devtools-if/dist/devtools-if.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@intlify+core-base@9.1.6/node_modules/@intlify/core-base/dist/core-base.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+shared@3.0.11/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+reactivity@3.0.11/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+runtime-core@3.0.11/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+runtime-dom@3.0.11/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/vue@3.0.11/node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vue+devtools-api@6.0.0-beta.12/node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@intlify+vue-devtools@9.1.6/node_modules/@intlify/vue-devtools/dist/vue-devtools.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/vue-i18n@9.1.6_vue@3.0.11/node_modules/vue-i18n/dist/vue-i18n.runtime.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "\u0000commonjsHelpers.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "\u0000/home/runner/work/portfolio/portfolio/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js?commonjs-module": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/vite-ssg@0.11.2_2e647931a757da8f26a1122ff7a33da6/node_modules/vite-ssg/dist/chunk-6HTX7RH6.mjs": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/vite-ssg@0.11.2_2e647931a757da8f26a1122ff7a33da6/node_modules/vite-ssg/dist/chunk-KHXGTJBV.mjs": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/vue-router@4.0.8_vue@3.0.11/node_modules/vue-router/dist/vue-router.esm-bundler.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vueuse+head@0.5.1_vue@3.0.11/node_modules/@vueuse/head/dist/index.mjs": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/vite-ssg@0.11.2_2e647931a757da8f26a1122ff7a33da6/node_modules/vite-ssg/dist/index.mjs": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/vue-demi@0.9.1_vue@3.0.11/node_modules/vue-demi/lib/index.esm.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vueuse+shared@4.11.2_vue@3.0.11/node_modules/@vueuse/shared/dist/index.esm.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/@vueuse+core@4.11.2_vue@3.0.11/node_modules/@vueuse/core/dist/index.esm.js": [
-    "/assets/vendor.6095adcd.js"
+    "/assets/vendor.24f20ba2.js"
   ],
   "/home/runner/work/portfolio/portfolio/node_modules/.pnpm/workbox-window@6.1.5/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/virtual_pwa-register.3d629c73.js"
@@ -133,39 +867,39 @@
     "/assets/virtual_pwa-register.3d629c73.js"
   ],
   "@vite-icons/carbon/pedestrian": [
-    "/assets/[name].e78e4c49.js"
+    "/assets/[name].bd0b5a7e.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/[name].e78e4c49.js"
+    "/assets/[name].bd0b5a7e.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/hi/[name].vue": [
-    "/assets/[name].e78e4c49.js"
+    "/assets/[name].bd0b5a7e.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/about.md": [
-    "/assets/about.6beeb990.js"
+    "/assets/about.046b1923.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/[...all].1d8d803a.js"
+    "/assets/[...all].909f4a26.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/[...all].vue?vue&type=route&index=0&lang.yaml": [
-    "/assets/[...all].1d8d803a.js"
+    "/assets/[...all].909f4a26.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/[...all].vue": [
-    "/assets/[...all].1d8d803a.js"
+    "/assets/[...all].909f4a26.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/README.md": [
-    "/assets/README.5f806a0f.js"
+    "/assets/README.dca5158d.js"
   ],
   "@vite-icons/carbon/warning": [
-    "/assets/404.1819e7ee.js"
+    "/assets/404.9b21da36.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404.1819e7ee.js"
+    "/assets/404.9b21da36.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/layouts/404.vue": [
-    "/assets/404.1819e7ee.js"
+    "/assets/404.9b21da36.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/layouts/home.vue": [
-    "/assets/home.d2e3aa90.js"
+    "/assets/home.953fd8e3.js"
   ]
 }
