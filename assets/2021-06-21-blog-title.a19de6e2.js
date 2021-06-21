@@ -1,1 +1,0 @@
-import{j as t,o as e,a as o,b as s}from"./vendor.24f20ba2.js";const l={class:"prose prose-sm m-auto text-left"},a=s("p",null,"Blog body text",-1),p={expose:[],setup:s=>(t({title:"Blog Title",meta:[{property:"og:title",content:"Blog Title"}]}),(t,s)=>(e(),o("div",l,[a])))};export default p;

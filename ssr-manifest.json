@@ -875,11 +875,8 @@
   "/home/runner/work/portfolio/portfolio/src/pages/hi/[name].vue": [
     "/assets/[name].bd0b5a7e.js"
   ],
-  "/home/runner/work/portfolio/portfolio/src/pages/blog/2021-06-21-blog-title.md": [
-    "/assets/2021-06-21-blog-title.a19de6e2.js"
-  ],
   "/home/runner/work/portfolio/portfolio/src/pages/about.md": [
-    "/assets/about.e6b0f076.js"
+    "/assets/about.046b1923.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
     "/assets/[...all].909f4a26.js"
@@ -903,6 +900,6 @@
     "/assets/404.9b21da36.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/layouts/home.vue": [
-    "/assets/home.8c9c64ff.js"
+    "/assets/home.953fd8e3.js"
   ]
 }
