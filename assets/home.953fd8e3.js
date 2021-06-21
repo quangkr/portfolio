@@ -1,1 +1,0 @@
-import{a as e}from"./app.f93ff341.js";import{r,o as s,a,b as o}from"./vendor.24f20ba2.js";const f={},n={class:"flex flex-col justify-between min-h-screen"};f.render=function(f,t){const i=r("router-view"),c=e;return s(),a("main",n,[o(i),o(c)])};export default f;
