@@ -8,5 +8,10 @@
   },
   "dependencies": {
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-plugin-gridsome": "^1.6.2",
+    "vue-eslint-parser": "^7.6.0"
   }
 }
