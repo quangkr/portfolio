@@ -1082,6 +1082,21 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/ibm-plex-mono@^4.4.5":
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-mono/-/ibm-plex-mono-4.4.5.tgz#691c535cb649356f57c0810620b4a314dea0d3aa"
+  integrity sha512-93865aR4zyXhWR5HNZ1gOI2AlezlSJ+MaZ1bKhjqCTCNlSB6TNPwGOzkLApUwucs5JPX/LS10ATfCms8+GkBVw==
+
+"@fontsource/ibm-plex-sans@^4.4.5":
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-sans/-/ibm-plex-sans-4.4.5.tgz#1cb3e5227b7cf8013d200ed9ebfed5cbb7edad88"
+  integrity sha512-drv21ZST1g2SykNsScizLLIJ1hbPgsBq9x5cbcIDGqiJ9f2Rt1XBIj0PUcXXjsHKxMKnaSeYAIUjI+NK9hIwOQ==
+
+"@fontsource/ibm-plex-serif@^4.4.5":
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/ibm-plex-serif/-/ibm-plex-serif-4.4.5.tgz#96380122e68dbc92be682dff12a70ba8786fb325"
+  integrity sha512-iSKwS27ksrCOBvjHy3Ko9i+RX5lrkqH4bXsZCZpkWTZEp7PviO2HoiMPeLg/bzKbmZ88Gn+v4ToiiD95FW/0Wg==
+
 "@gridsome/cli@^0.3.4":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.3.4.tgz#42fa7a4368a80bd04ec497c93cae5a66b041fe22"
@@ -1181,6 +1196,16 @@
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
+
+"@iconify-icons/mdi-light@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/mdi-light/-/mdi-light-1.1.0.tgz#30c2308e2e599c96da97f8d60a1aabf91504e712"
+  integrity sha512-pV69tNZO9u0qZFVcy5VFmg7dL+Yq3g8DrkCIMGnW3ukgcYDZG2M2oAKeIxHUCIE/11khAsYlBdrUFglTIcbDxg==
+
+"@iconify/vue2@^1.0.0-alpha.1":
+  version "1.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@iconify/vue2/-/vue2-1.0.0-alpha.1.tgz#ea4e2983ffdc47cc0c8f042d7259b0bd384e148d"
+  integrity sha512-jFEgHx6kzMqQdEIhoRFcMdLUgaGQsrVB1YM4ij/kOjnidoRm7bBOMgH4g3TEvww+h6jKeoMAIUepBMfnkX1YlA==
 
 "@icons/material@^0.2.4":
   version "0.2.4"
@@ -10955,7 +10980,14 @@ svg-tags@^1.0.0:
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
   integrity sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
 
-svgo@^1.0.0:
+svg-to-vue@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/svg-to-vue/-/svg-to-vue-0.7.0.tgz#ec86deb1742be38319462e36703af1dfa2f9fad9"
+  integrity sha512-Tg2nMmf3BQorYCAjxbtTkYyWPVSeox5AZUFvfy4MoWK/5tuQlnA/h3LAlTjV3sEvOC5FtUNovRSj3p784l4KOA==
+  dependencies:
+    svgo "^1.3.2"
+
+svgo@^1.0.0, svgo@^1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.3.2.tgz#b6dc511c063346c9e415b81e43401145b96d4167"
   integrity sha512-yhy/sQYxR5BkC98CY7o31VGsg014AKLEPxdfhora76l36hD9Rdy5NZA/Ocn6yayNPgSamYdtX2rFJdcv07AYVw==
@@ -11963,6 +11995,14 @@ vue-style-loader@^4.1.0:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
+
+vue-svg-loader@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/vue-svg-loader/-/vue-svg-loader-0.16.0.tgz#adccbdc9aca90132bde9c9d96cd49f74efecd345"
+  integrity sha512-2RtFXlTCYWm8YAEO2qAOZ2SuIF2NvLutB5muc3KDYoZq5ZeCHf8ggzSan3ksbbca7CJ/Aw57ZnDF4B7W/AkGtw==
+  dependencies:
+    loader-utils "^1.2.3"
+    svg-to-vue "^0.7.0"
 
 vue-template-compiler@^2.6.10:
   version "2.6.14"

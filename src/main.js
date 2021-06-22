@@ -3,6 +3,11 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 
+import '~/styles/main.css'
+import '@fontsource/ibm-plex-mono'
+import '@fontsource/ibm-plex-sans'
+import '@fontsource/ibm-plex-serif'
+
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)

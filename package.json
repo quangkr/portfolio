@@ -7,12 +7,18 @@
     "build": "gridsome build"
   },
   "dependencies": {
+    "@fontsource/ibm-plex-mono": "^4.4.5",
+    "@fontsource/ibm-plex-sans": "^4.4.5",
+    "@fontsource/ibm-plex-serif": "^4.4.5",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
+    "@iconify-icons/mdi-light": "^1.1.0",
+    "@iconify/vue2": "^1.0.0-alpha.1",
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "gridsome-plugin-windicss": "^1.0.2",
-    "netlify-cms": "^2.10.139"
+    "netlify-cms": "^2.10.139",
+    "vue-svg-loader": "^0.16.0"
   },
   "devDependencies": {
     "eslint": "^7.29.0",
