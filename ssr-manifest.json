@@ -747,7 +747,7 @@
     "/assets/[name].555161f7.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/about.md": [
-    "/assets/about.045b4b31.js"
+    "/assets/about.75552662.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
     "/assets/[...all].adbf1f47.js"
@@ -757,9 +757,6 @@
   ],
   "/home/runner/work/portfolio/portfolio/src/pages/[...all].vue": [
     "/assets/[...all].adbf1f47.js"
-  ],
-  "/home/runner/work/portfolio/portfolio/src/pages/README.md": [
-    "/assets/README.c82cd856.js"
   ],
   "@vite-icons/carbon/warning": [
     "/assets/404.05f507d2.js"
@@ -771,6 +768,6 @@
     "/assets/404.05f507d2.js"
   ],
   "/home/runner/work/portfolio/portfolio/src/layouts/home.vue": [
-    "/assets/home.0454d9f1.js"
+    "/assets/home.c22b867a.js"
   ]
 }
