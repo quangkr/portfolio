@@ -27,33 +27,27 @@ const initialFormData = (): formDataType => ({
 })
 const formData: formDataType = reactive(initialFormData())
 function resetForm(): void {
-  const s: formDataType = initialFormData()
-  Object.keys(s).forEach((key) => {
-    formData[key] = s[key]
-  })
+  Object.assign(formData, initialFormData())
 }
 
-function handleSubmit() {
-  // const axiosConfig = {
-  //   headers: {
-  //     'Content-Type': 'application/x-www-form-urlencoded',
-  //   },
-  // }
-
-  // axios.post(
-  //   '/',
-  //   encode({
-  //     'form-name': 'contact',
-  //     ...formData,
-  //   }),
-  //   axiosConfig,
-  // )
-
-  console.log(encode({
+async function handleSubmit() {
+  const finalData = {
     'form-name': 'contact',
     ...formData,
-  }))
-  resetForm()
+  }
+
+  const axiosConfig = {
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+  }
+
+  const response = await axios.post(
+    '/',
+    encode(finalData),
+    axiosConfig,
+  )
+  console.log(response)
 }
 </script>
 
