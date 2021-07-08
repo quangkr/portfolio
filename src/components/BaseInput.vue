@@ -1,10 +1,8 @@
 <script setup lang="ts">
-import { defineProps, defineEmit } from 'vue'
-
 defineProps({
   modelValue: String,
 })
-defineEmit(['update:modelValue'])
+defineEmits(['update:modelValue'])
 </script>
 
 <template>
