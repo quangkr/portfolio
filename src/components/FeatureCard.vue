@@ -13,6 +13,7 @@ defineProps({
     class="
       flex flex-col
       rounded-md shadow
+      overflow-hidden
     "
   >
     <div>
