@@ -6,6 +6,7 @@ import Layouts from 'vite-plugin-vue-layouts'
 import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 import ViteComponents from 'vite-plugin-components'
 import Markdown from 'vite-plugin-md'
+import matter from 'gray-matter'
 import WindiCSS from 'vite-plugin-windicss'
 import { VitePWA } from 'vite-plugin-pwa'
 import VueI18n from '@intlify/vite-plugin-vue-i18n'
@@ -26,6 +27,15 @@ export default defineConfig({
     // https://github.com/hannoeru/vite-plugin-pages
     Pages({
       extensions: ['vue', 'md'],
+      extendRoute(route) {
+        if (route.component.endsWith('.md')) {
+          const { data } = matter.read(path.resolve(__dirname, route.component.slice(1)))
+
+          route.meta = Object.assign(route.meta || {}, { ...data })
+        }
+
+        return route
+      }
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
