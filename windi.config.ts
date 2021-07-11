@@ -3,12 +3,25 @@ import defaultTheme from 'windicss/defaultTheme'
 import colors from 'windicss/colors'
 import typography from 'windicss/plugin/typography'
 
+function range(size: number, startAt = 1): string[] {
+  return Array.from(Array(size).keys()).map(i => String(i + startAt))
+}
+const colorRange = ['50', '100', '200', '300', '400', '500', '600', '700', '800', '900']
+function colorGenerator(name: string, arr = colorRange): Record<string | number, any> {
+  return arr.reduce((accu, item) => ({
+    ...accu,
+    [item]: `var(--color-${name}-${item})`
+  }), {});
+}
+
 export default defineConfig({
   darkMode: 'class',
   plugins: [
     typography(),
   ],
-  attributify: true,
+  attributify: {
+    prefix: 'w-',
+  },
   theme: {
     fontFamily: {
       sans: ['"IBM Plex Sans"', ...defaultTheme.fontFamily.sans],
@@ -17,24 +30,10 @@ export default defineConfig({
     },
     extend: {
       colors: {
-        console: {
-          0: 'var(--color-console-0)',
-          1: 'var(--color-console-1)',
-          2: 'var(--color-console-2)',
-          3: 'var(--color-console-3)',
-          4: 'var(--color-console-4)',
-          5: 'var(--color-console-5)',
-          6: 'var(--color-console-6)',
-          7: 'var(--color-console-7)',
-          8: 'var(--color-console-8)',
-          9: 'var(--color-console-9)',
-          10: 'var(--color-console-10)',
-          11: 'var(--color-console-11)',
-          12: 'var(--color-console-12)',
-          13: 'var(--color-console-13)',
-          14: 'var(--color-console-14)',
-          15: 'var(--color-console-15)',
-        },
+        emerald: colorGenerator('emerald'),
+        gray: colorGenerator('gray'),
+        blue: colorGenerator('blue'),
+        console: colorGenerator('console', range(16, 0)),
       },
       typography: {
         DEFAULT: {
@@ -42,13 +41,13 @@ export default defineConfig({
             maxWidth: '65ch',
             color: 'inherit',
             a: {
-              'color': 'inherit',
+              'color': 'var(--color-emerald-600)',
+              'textDecoration': 'none',
               'opacity': 0.75,
               'fontWeight': '500',
-              'textDecoration': 'underline',
               '&:hover': {
                 opacity: 1,
-                color: colors.teal[600],
+                'textDecoration': 'underline',
               },
             },
             b: { color: 'inherit' },
