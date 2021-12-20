@@ -10,8 +10,8 @@ const colorRange = ['50', '100', '200', '300', '400', '500', '600', '700', '800'
 function colorGenerator(name: string, arr = colorRange): Record<string | number, any> {
   return arr.reduce((accu, item) => ({
     ...accu,
-    [item]: `var(--color-${name}-${item})`
-  }), {});
+    [item]: `var(--color-${name}-${item})`,
+  }), {})
 }
 
 export default defineConfig({
@@ -47,7 +47,7 @@ export default defineConfig({
               'fontWeight': '500',
               '&:hover': {
                 opacity: 1,
-                'textDecoration': 'underline',
+                textDecoration: 'underline',
               },
             },
             b: { color: 'inherit' },
