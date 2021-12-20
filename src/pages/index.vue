@@ -83,6 +83,8 @@ async function handleSubmit(): Promise<void> {
           class="max-w-90 w-8/10 mx-auto my-12"
           :img-src="imgThumbBlogr"
           title="Blogr"
+          demo-link="https://blogr.dangminhquang.me"
+          source-link="https://github.com/quangkr/frontendmentor-blogr-landing-page"
         >
           A very simple landing page with no interactivity and no routes; written in Vue with simple HTML and CSS.
         </feature-card>
@@ -90,6 +92,8 @@ async function handleSubmit(): Promise<void> {
           class="max-w-90 w-8/10 mx-auto my-12"
           :img-src="imgThumbRestCountries"
           title="REST Countries API"
+          demo-link="https://rclist.dangminhquang.me"
+          source-link="https://github.com/quangkr/frontendmentor-rest-countries-api"
         >
           A simple SPA that fetches and displays data from <a href="https://restcountries.eu/" target="_blank">REST Countries API</a>.
           Written in React, it features a simple filter and a search bar, and also a Dark mode toggle.

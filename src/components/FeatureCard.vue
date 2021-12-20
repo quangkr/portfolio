@@ -27,11 +27,11 @@ defineProps({
         <slot></slot>
       </div>
       <div class="flex flex-col mx-auto mt-6 items-center">
-        <base-button class="flex items-center">
+        <base-button type="a" class="flex items-center" :to="demoLink" target="_blank">
           Live Demo
           <uil-external-link-alt class="w-6 h-auto ml-1" />
         </base-button>
-        <base-button class="mt-4 flex items-center">
+        <base-button type="a" class="mt-4 flex items-center" :to="sourceLink" target="_blank">
           View Source
           <uil-github class="w-6 h-auto ml-1" />
         </base-button>
