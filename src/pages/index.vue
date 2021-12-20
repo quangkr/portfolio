@@ -1,13 +1,10 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
-import { useRouter } from 'vue-router'
 import axios from 'axios'
 
 import imgThumbBlogr from '~/assets/thumb-blogr.png'
 import imgThumbRestCountries from '~/assets/thumb-rest-countries.png'
 import SvgLogo from '~/assets/logo.svg'
-
-const router = useRouter()
 
 // helpers
 function encode(data: Record<string, string>): string {
@@ -26,28 +23,30 @@ const initialFormData = (): formDataType => ({
   message: '',
 })
 const formData: formDataType = reactive(initialFormData())
+
 function resetForm(): void {
   Object.assign(formData, initialFormData())
 }
 
-async function handleSubmit() {
-  const finalData = {
-    'form-name': 'contact',
-    ...formData,
-  }
-
+async function handleSubmit(): Promise<void> {
   const axiosConfig = {
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
     },
   }
 
-  const response = await axios.post(
-    '/',
-    encode(finalData),
-    axiosConfig,
-  )
-  console.log(response)
+  try {
+    await axios.post(
+      '/',
+      encode({ ...formData }),
+      axiosConfig,
+    )
+  }
+  catch (e) {
+    console.log(e.message)
+  }
+
+  resetForm()
 }
 </script>
 
@@ -61,66 +60,63 @@ async function handleSubmit() {
     >
       <div class="xl:container mx-auto px-4 grid grid-cols-1 grid-rows-3 min-h-screen">
         <svg-logo class="w-full max-w-60 h-auto mx-auto px-8 row-start-1 self-end" />
-        <h1 class="row-start-2 self-center text-3xl text-console-8">
-          Hi, I'm <span class="text-console-2">Quang</span>
+        <div class="row-start-2 max-w-screen-md justify-self-center self-center px-6 text-3xl text-console-8">
+          <h1>Hi, I'm <span class="text-console-2">Quang</span></h1>
           <p class="mt-6 font-normal text-2xl">
             I'm a <span class="text-console-3">Web Developer</span>
           </p>
-        </h1>
+          <p class="mt-10 text-xl">
+            I love creating modern and clean websites, with intuitive user experiences.
+          </p>
+        </div>
         <a href="#section-projects" target="_self" class="row-start-3 self-end text-console-8">
           <mdi-light-chevron-down class="w-28 h-auto" />
         </a>
       </div>
     </section>
-    <section id="section-about" class="w-full">
-      <div class="mx-auto max-w-screen-lg px-8 py-24">
-        <h2 class="mb-12 text-console-7 text-3xl text-center">
-          About me
-        </h2>
-        <p class="text-console-7 text-lg">
-          I'm a frontend web developer.
-          I create modern and clean websites using tools and frameworks like React, Vue and Tailwind.
-        </p>
+    <section id="section-projects" class="w-full py-24">
+      <h2 class="mb-12 mx-auto text-console-7 text-3xl text-center">
+        My Projects
+      </h2>
+      <div class="w-full max-w-screen-lg mx-auto flex flex-col md:flex-row md:flex-wrap">
+        <feature-card
+          class="max-w-90 w-8/10 mx-auto my-12"
+          :img-src="imgThumbBlogr"
+          title="Blogr"
+        >
+          A very simple landing page with no interactivity and no routes; written in Vue with simple HTML and CSS.
+        </feature-card>
+        <feature-card
+          class="max-w-90 w-8/10 mx-auto my-12"
+          :img-src="imgThumbRestCountries"
+          title="REST Countries API"
+        >
+          A simple SPA that fetches and displays data from <a href="https://restcountries.eu/" target="_blank">REST Countries API</a>.
+          Written in React, it features a simple filter and a search bar, and also a Dark mode toggle.
+        </feature-card>
       </div>
     </section>
-    <section id="section-projects" class="w-full">
-      <feature-card
-        class="max-w-160 w-8/10 mx-auto my-12"
-        :img-src="imgThumbBlogr"
-        title="Blogr"
-      >
-        A very simple landing page with no interactivity and no routes; written in Vue with simple HTML and CSS.
-      </feature-card>
-      <feature-card
-        class="max-w-160 w-8/10 mx-auto my-12"
-        :img-src="imgThumbRestCountries"
-        title="REST Countries API"
-      >
-        A simple SPA that fetches and displays data from <a href="https://restcountries.eu/" target="_blank">REST Countries API</a>.
-        Written in React, it features a simple filter and a search bar, and also a Dark mode toggle.
-      </feature-card>
-    </section>
-    <section id="section-contact" class="w-full">
-      <div class="mx-auto max-w-screen-lg px-8 py-24">
+    <section id="section-contact" class="w-full bg-console-0">
+      <div class="mx-auto max-w-screen-md px-8 py-24">
         <h2 class="mb-12 text-console-7 text-3xl text-center">
-          Let's chat
+          Contact Me!
         </h2>
         <div class="w-full">
           <form
-            class="w-full grid grid-cols-[max-content,1fr] gap-x-4 gap-y-6"
+            class="w-full grid grid-cols-1fr md:grid-cols-[max-content,1fr] gap-x-4"
             name="contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             @submit.prevent="handleSubmit"
           >
             <input type="hidden" name="form-name" value="contact" />
-            <label for="formdata-name">Name</label>
+            <label for="formdata-name" class="mt-2 mb-1">Name</label>
             <base-input id="formdata-name" v-model="formData.name" type="text" name="name" />
-            <label for="formdata-email">Email</label>
+            <label for="formdata-email" class="mt-2 mb-1">Email</label>
             <base-input id="formdata-email" v-model="formData.email" type="email" name="email" />
-            <label for="formdata-message">Message</label>
+            <label for="formdata-message" class="mt-2 mb-1">Message</label>
             <base-input id="formdata-message" v-model="formData.message" type="textarea" name="message" />
-            <base-button type="submit">
+            <base-button type="submit" class="justify-self-center md:col-span-2">
               Send
             </base-button>
           </form>
