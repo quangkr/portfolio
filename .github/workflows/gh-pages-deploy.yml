@@ -41,14 +41,14 @@ jobs:
 
       - name: Deploy to current repository
         if: ${{ github.ref != 'refs/heads/main' }}
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
           branch: gh-pages
           folder: dist # The folder the action should deploy.
 
       - name: Deploy to homepage repository
         if: ${{ github.ref == 'refs/heads/main' }}
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
           repository-name: quangkr/quangkr.github.io
           ssh-key: ${{ secrets.DEPLOY_KEY }}
